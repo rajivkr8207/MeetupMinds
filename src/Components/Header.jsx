@@ -17,9 +17,9 @@ const Header = () => {
         <header>
         <div className="mx-auto flex lg:justify-around justify-between lg:px-0 px-3 py-5 z-10 relative border-b border-black">
         <div>
-          <Link to="/" className="text-2xl font-semibold capitalize flex gap-3 my-auto">
+          <Link to="/" className="text-2xl font-bold  flex gap-3 my-auto">
           <img src={tech} alt="" className='w-10 h-10 my-auto ' />
-          MeetupMinds</Link>
+          <span className="py-1"><span className="text-3xl font-medium">U</span>nfold<span className="text-3xl font-medium">S</span>teps</span></Link>
         </div>
         <div className="my-auto hidden lg:block">
           <ul className="flex gap-12 font-semibold text-lg uppercase">
@@ -43,7 +43,7 @@ const Header = () => {
           </ul>
         </div>
         <div
-          className="lg:hidden block text-3xl cursor-pointer"
+          className="lg:hidden block text-3xl cursor-pointer mr-2"
           onClick={handlechange}
         >
           <CiMenuFries className="text-3xl" />

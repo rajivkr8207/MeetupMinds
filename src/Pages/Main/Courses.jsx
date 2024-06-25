@@ -8,16 +8,16 @@ import CourseCard from '../../Components/CourseCard.jsx';
 import Modal from '../../Components/Modal.jsx';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import cyber from '../../assets/cyber.jpg'
 const Courses = () => {
   const data = [
     {
       id: 1,
-      title: "Introduction to AI",
+      title: "Ethical Hacking and Cybersecurity!🔐",
       category: "online",
-      image: 'https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: cyber,
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae vestibulum quam.",
+        "Get ready to supercharge your productivity with an exhilarating, workshop on Cyber security and ethical hacking ! 🦾🔥",
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const Courses = () => {
     {
       id: 3,
       title: "Advanced Data Science",
-      category: "offline",
+      category: "online",
       image: 'https://images.pexels.com/photos/2911364/pexels-photo-2911364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae vestibulum quam.",
@@ -38,7 +38,7 @@ const Courses = () => {
     {
       id: 4,
       title: "Web Development with HTML",
-      category: "offline",
+      category: "online",
       image:
         "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       description:
@@ -47,7 +47,7 @@ const Courses = () => {
     {
       id: 5,
       title: "Machine Learning Techniques",
-      category: "online",
+      category: "Com_soon",
       image: 'https://imgs.search.brave.com/H9BcCO-goNtWUABAJugDhYaEnG1KLjkwm6t0cMPr1iM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kM2Yx/aXlmeHh6OGkxZS5j/bG91ZGZyb250Lm5l/dC9jb3Vyc2VzL2Nv/dXJzZV9pbWFnZS80/NjgwZTk5ODMzYzcu/anBn',
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae vestibulum quam.",
@@ -55,7 +55,7 @@ const Courses = () => {
     {
       id: 6,
       title: "Advanced Data Science 2 ",
-      category: "offline",
+      category: "Com_soon",
       image: 'https://imgs.search.brave.com/88SRRNf3k3Rz5jl3i3E4RtpJEZcxRpOHVL5veoLSYsw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9iaWct/ZGF0YS1jZW50ZXIt/YW5hbHl6ZXMtZGF0/YS1zY2llbmNlLWJh/Y2tncm91bmQtcHJl/c2VudGF0aW9uLWJp/Zy1kYXRhLWNlbnRl/ci1hbmFseXplcy1k/YXRhLXNjaWVuY2Ut/YmFja2dyb3VuZC0x/NTkxOTY1OTguanBn',
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae vestibulum quam.",

@@ -7,9 +7,10 @@ const Footer = () => {
        <div className="bg-black w-full relative z-10 text-white">
         <div className="container mx-auto flex justify-around lg:flex-row flex-col py-8 ">
           <div className="mx-5 lg:my-0 my-5">
-            <h1 className="text-3xl my-3 font-semibold flex gap-3">
+            <h1 className="text-2xl my-3 font-semibold flex gap-3">
             <img src={tech} alt="" className='w-10 h-10 my-auto ' />
-            MeetupMinds</h1>
+            <span className="py-1"><span className="text-3xl font-medium">U</span>nfold<span className="text-3xl font-medium">S</span>teps</span>
+</h1>
             
             <p className="flex  rounded-r-md">
               {/* <input
